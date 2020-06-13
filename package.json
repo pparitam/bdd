@@ -1,0 +1,26 @@
+{
+  "name": "cypress_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TDD",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "Parita",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.1.0",
+    "cypress-cucumber-preprocessor": "^2.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "mochawesome": "^6.1.1"
+  }
+}
